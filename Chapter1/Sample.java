@@ -1,12 +1,12 @@
 package Chapter1;
 
-import shape.Circle;
+import shape.*;
 
 class Sample{
     public static void main(String[] args) {
-        Circle c1 = new Circle();
-        c1.setValue();
-        c1.setValue2();
+        Rectangle r1 = new Rectangle();
+        r1.setValue();
+        r1.setValue2();
     }
 
 }
