@@ -1,2 +1,7 @@
 物件導向非常有彈性 可以透過物件 隨時更換 應用程式的結構
 Circle 可以隨時換成 Rectangle
+
+重點1.
+母類別 的 實例變數 可以讓 子類別重疊使用
+所以 shape 有 x1 , y1
+Circle and Rectangle 就有 x1 , y1 然後在自己的class再加上 圖形自己特有的特性屬性 EX: Circle => radius
