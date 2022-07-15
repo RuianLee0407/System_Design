@@ -1,6 +1,6 @@
 package Chapter1;
 
-import shape.*;
+import Chapter1.shape.*;
 
 class Sample{
     public static void main(String[] args) {

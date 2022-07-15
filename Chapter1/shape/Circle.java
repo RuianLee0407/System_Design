@@ -1,4 +1,4 @@
-package shape;
+package Chapter1.shape;
 
 import java.util.Scanner;
 

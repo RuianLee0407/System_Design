@@ -1,4 +1,4 @@
-package shape;
+package Chapter1.shape;
 
 public class Shape {
     // this is the instance variable of the parent class
