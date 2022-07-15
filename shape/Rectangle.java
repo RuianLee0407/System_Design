@@ -1,10 +1,8 @@
 package shape;
 import java.util.Scanner;
 
-public class Rectangle{
+public class Rectangle extends Shape{
     // instance variable    
-    int x1;
-    int y1;
     int w;
     int h;
     final String CHS_NAME = "長方形";
@@ -14,7 +12,6 @@ public class Rectangle{
     //     this.y1 = y1;
     //     this.radius = radius;
     // }
-    private String next;
     
     public void show(){
         System.out.printf(CHS_NAME + "在" + "(%d , %d)的座標位置顯示。\n",this.x1,this.y1);
@@ -36,7 +33,6 @@ public class Rectangle{
     public void setValue2(){
         Scanner cin = new Scanner(System.in);
         String text = cin.nextLine();
-        cin.close();
         String[] tokens = text.split(" ");
         int values[] = new int[tokens.length];
         for(int i=0;i<tokens.length;i++){

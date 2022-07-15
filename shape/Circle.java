@@ -2,10 +2,8 @@ package shape;
 
 import java.util.Scanner;
 
-public class Circle {
+public class Circle extends Shape{
     // instance variable    
-    int x1;
-    int y1;
     int radius;
     final String CHS_NAME = "圓形";
     // public to make other program use this method to create object
@@ -14,7 +12,6 @@ public class Circle {
     //     this.y1 = y1;
     //     this.radius = radius;
     // }
-    private String next;
     
     public void show(){
         System.out.printf(CHS_NAME + "在" + "(%d , %d)的座標位置顯示。\n",this.x1,this.y1);
@@ -34,8 +31,8 @@ public class Circle {
     public void setValue2(){
         Scanner cin = new Scanner(System.in);
         String text = cin.nextLine();
-        cin.close();
         String[] tokens = text.split(" ");
+        cin.close();
         int values[] = new int[tokens.length];
         for(int i=0;i<tokens.length;i++){
             values[i] = Integer.parseInt(tokens[i]);

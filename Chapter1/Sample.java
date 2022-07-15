@@ -7,6 +7,10 @@ class Sample{
         Rectangle r1 = new Rectangle();
         r1.setValue();
         r1.setValue2();
+
+        Circle c1 = new Circle();
+        c1.setValue();
+        c1.setValue2();
     }
 
 }
