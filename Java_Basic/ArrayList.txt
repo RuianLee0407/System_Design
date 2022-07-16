@@ -1,0 +1,4 @@
+ArrayList 在管理不確定數目 的物件時，非常方便
+--複習
+1. ArrayList 其實就是 可以變更大小(resizable) 的 array
+2. 透過 angle bracket 裡面的 referenced type 可以設定 儲存的 參考變數
