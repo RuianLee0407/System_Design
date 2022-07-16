@@ -1,1 +1,10 @@
 裡面 敘述了 class 怎麼設計 還有基本的結構是甚麼
+
+封裝筆記
+
+public  公開 可由外部 做設定
+
+private 私有 只能由內部 做設定
+
+1. fild 的 instance variable 設為 private
+2. getter and setter 設為 public
